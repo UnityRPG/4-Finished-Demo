@@ -29,3 +29,8 @@ Here are the lectures of the course for this section...
 1. Move all `PlayParticleEffect()` code to parent class
 2. Use "down-casting" with caution for configs
 3. Setup prefab based idiom for world vs local particle space.
+
+### 4 Centralise And Improve Audio Clips
+1. Move special ability audio to `AbilityBehaviour.cs`
+2. Use the `PlayOneShot()` method to play clips at the same time
+3. Import Rick's special ability sound effects.

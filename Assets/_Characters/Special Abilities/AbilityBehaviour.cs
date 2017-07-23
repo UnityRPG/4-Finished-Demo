@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace RPG.Characters
@@ -8,7 +7,7 @@ namespace RPG.Characters
     {
         protected AbilityConfig config;
 
-        const float PARTICE_CLEAN_UP_DELAY = 20f;
+        const float PARTICLE_CLEAN_UP_DELAY = 20f;
 
         public abstract void Use(AbilityUseParams useParams);
 
@@ -34,10 +33,17 @@ namespace RPG.Characters
         {
             while (particlePrefab.GetComponent<ParticleSystem>().isPlaying)
             {
-                yield return new WaitForSeconds(PARTICE_CLEAN_UP_DELAY);
+                yield return new WaitForSeconds(PARTICLE_CLEAN_UP_DELAY);
             }
             Destroy(particlePrefab);
             yield return new WaitForEndOfFrame();
+        }
+
+        protected void PlayAbilitySound()
+        {
+            var abilitySound = config.GetRandomAbilitySound();
+            var audioSource = GetComponent<AudioSource>();
+            audioSource.PlayOneShot(abilitySound);
         }
     }
 }
