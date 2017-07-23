@@ -13,4 +13,7 @@ This branch is the course branch, each commit corresponds to a lecture in the co
 Here are the lectures of the course for this section...
 
 ### 1 Section 4 Introduction
-+ 
+1. What we're going to cover in this section
+2. Why this material is SO important
+3. Ben will start, Rick will finish
+4. A few new features but a LOT of polish.
