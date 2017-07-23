@@ -17,3 +17,10 @@ Here are the lectures of the course for this section...
 2. Why this material is SO important
 3. Ben will start, Rick will finish
 4. A few new features but a LOT of polish.
+
+### 2 From Interface To Inheritance
+1. Don't Repeat Yourself (DRY) Principle
+2. Inheritance can help us centralise
+3. It's often easy to change an interface to inheritance
+4. Create the new parent class, then delete the interface
+5. Getting code running again may require `abstract` and `override`
