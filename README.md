@@ -24,3 +24,8 @@ Here are the lectures of the course for this section...
 3. It's often easy to change an interface to inheritance
 4. Create the new parent class, then delete the interface
 5. Getting code running again may require `abstract` and `override`
+
+### 3 Less Lines Of Code Is Better
+1. Move all `PlayParticleEffect()` code to parent class
+2. Use "down-casting" with caution for configs
+3. Setup prefab based idiom for world vs local particle space.
