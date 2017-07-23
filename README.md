@@ -34,3 +34,7 @@ Here are the lectures of the course for this section...
 1. Move special ability audio to `AbilityBehaviour.cs`
 2. Use the `PlayOneShot()` method to play clips at the same time
 3. Import Rick's special ability sound effects.
+
+### 5 Making Abstract Methods Concrete
+1. Move `AttachComponentTo()` method to parent class
+2. Refactor to simplify code as practice.
