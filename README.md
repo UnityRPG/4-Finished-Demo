@@ -38,3 +38,9 @@ Here are the lectures of the course for this section...
 ### 5 Making Abstract Methods Concrete
 1. Move `AttachComponentTo()` method to parent class
 2. Refactor to simplify code as practice.
+
+### 6 Weapon Pickup Points
+1. Creating what's effectively nested prefabs!
+2. How to use `[ExecuteInEditMode]` annotation
+3. Detecting play mode with `Application.isPlaying`
+4. Trigger a sound effect when weapon is collected.
