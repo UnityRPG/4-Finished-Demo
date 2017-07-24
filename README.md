@@ -44,3 +44,9 @@ Here are the lectures of the course for this section...
 2. How to use `[ExecuteInEditMode]` annotation
 3. Detecting play mode with `Application.isPlaying`
 4. Trigger a sound effect when weapon is collected.
+
+
+### 7 Weapon Change Mechanics
+1. Destroy previous weapon by keeping member variable
+2. The `Player` class is becoming a "god object" (see Resource links)
+3. Change runtime animation on weapon swap.
