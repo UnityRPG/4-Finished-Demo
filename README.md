@@ -50,3 +50,8 @@ Here are the lectures of the course for this section...
 1. Destroy previous weapon by keeping member variable
 2. The `Player` class is becoming a "god object" (see Resource links)
 3. Change runtime animation on weapon swap.
+
+### 8 Eliminate AICharacterControl
+1. Remove Unity's `AICharacterControl.cs` class
+2. Make `PlayerMovement` more general `CharacterMovement`
+3. Overall reduce our code base by 68 lines.
