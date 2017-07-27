@@ -55,3 +55,9 @@ Here are the lectures of the course for this section...
 1. Remove Unity's `AICharacterControl.cs` class
 2. Make `PlayerMovement` more general `CharacterMovement`
 3. Overall reduce our code base by 68 lines.
+
+
+### 9 simplify Unity's ThirdPersonCharacter Class
+1. Remove jump and crouch arguments
+2. Remove all un-necessary methods
+3. Remove un-used member variables.
