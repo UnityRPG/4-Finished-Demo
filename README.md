@@ -57,7 +57,13 @@ Here are the lectures of the course for this section...
 3. Overall reduce our code base by 68 lines.
 
 
-### 9 simplify Unity's ThirdPersonCharacter Class
+### 9 Simplify Unity's ThirdPersonCharacter Class
 1. Remove jump and crouch arguments
 2. Remove all un-necessary methods
 3. Remove un-used member variables.
+
+
+### 10 Introducing Unity 2017
+1. Upgrade our project to Unity 2017
+2. Fix anything that isn't working
+3. Overview the new features in Unity 2017.
