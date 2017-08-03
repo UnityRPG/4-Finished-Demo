@@ -67,3 +67,8 @@ Here are the lectures of the course for this section...
 1. Upgrade our project to Unity 2017
 2. Fix anything that isn't working
 3. Overview the new features in Unity 2017.
+
+### 11 Caution With Callbacks In Refactors
+1. About the `OnAnimatorMove()` callback
+2. Using this to adjust root motion speed
+3. How call-backs can catch you out in refactors.
