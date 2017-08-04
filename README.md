@@ -72,3 +72,9 @@ Here are the lectures of the course for this section...
 1. About the `OnAnimatorMove()` callback
 2. Using this to adjust root motion speed
 3. How call-backs can catch you out in refactors.
+
+
+### 12 Eliminating ThirdPersonCharacter.cs
+1. Refactor our code in place to get an understanding
+2. Bring Unity's code in line with our code standards
+3. Move all code from `ThirdPersonCharacter` to `CharacterMovement`
