@@ -78,3 +78,9 @@ Here are the lectures of the course for this section...
 1. Refactor our code in place to get an understanding
 2. Bring Unity's code in line with our code standards
 3. Move all code from `ThirdPersonCharacter` to `CharacterMovement`
+
+
+### 13 Extracting a DamageSystem Component
+1. With special abilities we turned an interface into inheritance
+2. Now we turn the `IDamageable` interface into a component
+3. Extract all damage, healing and health bar code.

@@ -59,6 +59,11 @@ namespace RPG.Characters
             UpdateAnimator();
         }
 
+        public void Kill()
+        {
+            // to allow death signaling
+        }
+
         void SetForwardAndTurn(Vector3 movement)
         {
             // convert the world relative moveInput vector into a local-relative
@@ -115,5 +120,7 @@ namespace RPG.Characters
                 ridigBody.velocity = velocity;
             }
         }
+
+
     }
 }

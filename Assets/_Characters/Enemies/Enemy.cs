@@ -9,7 +9,7 @@ namespace RPG.Characters
     public class Enemy : MonoBehaviour, IDamageable
     {
 
-        [SerializeField] float maxHealthPoints = 100f;
+
         [SerializeField] float chaseRadius = 6f;
 
         [SerializeField] float attackRadius = 4f;
@@ -21,16 +21,7 @@ namespace RPG.Characters
         [SerializeField] Vector3 aimOffset = new Vector3(0, 1f, 0);
 
         bool isAttacking = false;
-        float currentHealthPoints;
         Player player = null;
-
-        public float healthAsPercentage { get { return currentHealthPoints / maxHealthPoints; } }
-
-        public void TakeDamage(float damage)
-        {
-            currentHealthPoints = Mathf.Clamp(currentHealthPoints - damage, 0f, maxHealthPoints);
-            if (currentHealthPoints <= 0) { Destroy(gameObject); }
-        }
 
         void Start()
         {
