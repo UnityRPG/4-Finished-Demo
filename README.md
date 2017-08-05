@@ -84,3 +84,9 @@ Here are the lectures of the course for this section...
 1. With special abilities we turned an interface into inheritance
 2. Now we turn the `IDamageable` interface into a component
 3. Extract all damage, healing and health bar code.
+
+
+### 14 Getting To Compilation With Focus
+1. Don't be distracted when not compiling
+2. Just solve the errors, get running & commit
+3. Complete extraction of `HealthSystem`
