@@ -17,7 +17,7 @@ namespace RPG.Characters
 
         const string DEATH_TRIGGER = "Death";
 
-        public float currentHealthPoints; 
+        float currentHealthPoints; 
         Animator animator;
         AudioSource audioSource;
         CharacterMovement characterMovement;

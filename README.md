@@ -90,3 +90,9 @@ Here are the lectures of the course for this section...
 1. Don't be distracted when not compiling
 2. Just solve the errors, get running & commit
 3. Complete extraction of `HealthSystem`
+
+### 15 Centralising Special Ability Code
+1. Drawing a comparison with Health System
+2. Using the "Pomodoro Technique" for 20-min chunks
+3. Make energy and special abilities self contained
+4. How to write an alternative getter format in C#.
