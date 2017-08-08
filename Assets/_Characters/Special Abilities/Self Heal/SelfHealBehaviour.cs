@@ -13,7 +13,7 @@ namespace RPG.Characters
             player = GetComponent<Player>();
         }
 
-		public override void Use(AbilityUseParams useParams)
+		public override void Use(GameObject target)
 		{
             PlayAbilitySound();
             var playerHealth = player.GetComponent<HealthSystem>();

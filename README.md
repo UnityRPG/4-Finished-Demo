@@ -96,3 +96,8 @@ Here are the lectures of the course for this section...
 2. Using the "Pomodoro Technique" for 20-min chunks
 3. Make energy and special abilities self contained
 4. How to write an alternative getter format in C#.
+
+
+### 16 Eliminate A Struct And Interface
+1. Remove the `AbilityUseParams` struct
+2. Eliminate the `IDamageable` interface

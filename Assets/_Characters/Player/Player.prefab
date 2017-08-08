@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 82071768402052042}
   - component: {fileID: 114633348878164724}
   - component: {fileID: 114401487052103182}
+  - component: {fileID: 114840529300810880}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -2128,12 +2129,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 149790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 335a0c914fde040e68b13a253c2afdca, type: 3}
+  m_Script: {fileID: 11500000, guid: eba53ee13d7e248d3a3c24b1b38be0f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energyOrb: {fileID: 0}
+  abilities: []
+  energyBar: {fileID: 0}
   maxEnergyPoints: 100
-  regenPointsPerSecond: 3
+  regenPointsPerSecond: 1
 --- !u!114 &114633348878164724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2152,10 +2154,22 @@ MonoBehaviour:
   criticalHitChance: 0.1
   criticalHitMultiplier: 1.25
   criticalHitParticle: {fileID: 198757451732837772}
-  abilities:
-  - {fileID: 11400000, guid: 7d493ef7d1af04307941d084945693a9, type: 2}
-  - {fileID: 11400000, guid: 87b1244f6029d4a0f850297a5dfedd7a, type: 2}
-  - {fileID: 11400000, guid: 8f838734eb7a749009a3315fd6312191, type: 2}
+--- !u!114 &114840529300810880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53fb437e61ff0493b8734b859139a188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealthPoints: 100
+  healthBar: {fileID: 0}
+  damageSounds: []
+  deathSounds: []
+  deathVanishSeconds: 2
 --- !u!114 &114932028709818798
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,7 +6,7 @@ using RPG.Core; // TODO consider re-wire
 
 namespace RPG.Characters
 {
-    public class Enemy : MonoBehaviour, IDamageable // todo remove interface
+    public class Enemy : MonoBehaviour
     {
         [SerializeField] float chaseRadius = 6f;
 
