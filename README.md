@@ -45,7 +45,6 @@ Here are the lectures of the course for this section...
 3. Detecting play mode with `Application.isPlaying`
 4. Trigger a sound effect when weapon is collected.
 
-
 ### 7 Weapon Change Mechanics
 1. Destroy previous weapon by keeping member variable
 2. The `Player` class is becoming a "god object" (see Resource links)
@@ -56,12 +55,10 @@ Here are the lectures of the course for this section...
 2. Make `PlayerMovement` more general `CharacterMovement`
 3. Overall reduce our code base by 68 lines.
 
-
 ### 9 Simplify Unity's ThirdPersonCharacter Class
 1. Remove jump and crouch arguments
 2. Remove all un-necessary methods
 3. Remove un-used member variables.
-
 
 ### 10 Introducing Unity 2017
 1. Upgrade our project to Unity 2017
@@ -73,18 +70,15 @@ Here are the lectures of the course for this section...
 2. Using this to adjust root motion speed
 3. How call-backs can catch you out in refactors.
 
-
 ### 12 Eliminating ThirdPersonCharacter.cs
 1. Refactor our code in place to get an understanding
 2. Bring Unity's code in line with our code standards
 3. Move all code from `ThirdPersonCharacter` to `CharacterMovement`
 
-
 ### 13 Extracting a DamageSystem Component
 1. With special abilities we turned an interface into inheritance
 2. Now we turn the `IDamageable` interface into a component
 3. Extract all damage, healing and health bar code.
-
 
 ### 14 Getting To Compilation With Focus
 1. Don't be distracted when not compiling
@@ -97,7 +91,12 @@ Here are the lectures of the course for this section...
 3. Make energy and special abilities self contained
 4. How to write an alternative getter format in C#.
 
-
 ### 16 Eliminate A Struct And Interface
 1. Remove the `AbilityUseParams` struct
 2. Eliminate the `IDamageable` interface
+
+### 17 Using Optional Parameters In C#
+1. Review our code to ensure we "own" it
+2. Get special abilities working again
+3. Use an optional parameter in C#
+4. Setup an out of energy SFX.
