@@ -104,3 +104,6 @@ Here are the lectures of the course for this section...
 ### 18 Having Characters Build Themselves
 1. Using the `[SelectionBase]` attribute
 2. Making characters add their own component on `Awake()`
+
+### 19 Completing Character Self-Setup
+1. Finish the work we started in the last lecture as a challenge.
