@@ -107,3 +107,9 @@ Here are the lectures of the course for this section...
 
 ### 19 Completing Character Self-Setup
 1. Finish the work we started in the last lecture as a challenge.
+
+### 20 A SetDestination() Movement API
+1. Both `PlayerControl` and `EnemyAI` set world space destinations
+2. This will work for mouse, but would need to be modified for gamepad
+3. Take all input listening out of the character
+4. Start to really focus `PlayerControl` on it's sole function.
