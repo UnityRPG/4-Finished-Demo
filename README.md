@@ -100,3 +100,7 @@ Here are the lectures of the course for this section...
 2. Get special abilities working again
 3. Use an optional parameter in C#
 4. Setup an out of energy SFX.
+
+### 18 Having Characters Build Themselves
+1. Using the `[SelectionBase]` attribute
+2. Making characters add their own component on `Awake()`

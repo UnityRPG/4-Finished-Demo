@@ -5,9 +5,21 @@ using RPG.CameraUI;
 
 namespace RPG.Characters
 {
+    [SelectionBase]
     [RequireComponent(typeof(NavMeshAgent))]
-    public class CharacterMovement : MonoBehaviour
+    public class Chracter : MonoBehaviour
     {
+        [Header("Capsule Collider Settings")]
+        [SerializeField] Vector3 colliderCenter = new Vector3(0, 1.03f, 0);
+        [SerializeField] float colliderRadius = 0.2f;
+        [SerializeField] float colliderHeight = 2.03f;
+
+        [Header("Setup Settings")]
+        [SerializeField] RuntimeAnimatorController animatorController;
+        [SerializeField] AnimatorOverrideController animatorOverrideController;
+        [SerializeField] Avatar characterAvatar;
+
+        [Header("Movement Properties")]
         [SerializeField] float stoppingDistance = 1f;
         [SerializeField] float moveSpeedMultiplier = .7f;
         [SerializeField] float animationSpeedMultiplier = 1.5f;
@@ -22,11 +34,26 @@ namespace RPG.Characters
         float turnAmount;
         float forwardAmount;
 
+        void Awake()
+        {
+            AddRequiredComponents();
+        }
+
+        private void AddRequiredComponents()
+        {
+            var capsuleCollider = gameObject.AddComponent<CapsuleCollider>();
+            capsuleCollider.center = colliderCenter;
+            capsuleCollider.radius = colliderRadius;
+            capsuleCollider.height = colliderHeight;
+
+            animator = gameObject.AddComponent<Animator>();
+            animator.runtimeAnimatorController = animatorController;
+            animator.avatar = characterAvatar;
+        }
+
         void Start()
         {
             CameraRaycaster cameraRaycaster = Camera.main.GetComponent<CameraRaycaster>();
-
-            animator = GetComponent<Animator>();
 
             ridigBody = GetComponent<Rigidbody>();
             ridigBody.constraints = RigidbodyConstraints.FreezeRotation;
