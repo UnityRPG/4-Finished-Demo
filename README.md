@@ -113,3 +113,9 @@ Here are the lectures of the course for this section...
 2. This will work for mouse, but would need to be modified for gamepad
 3. Take all input listening out of the character
 4. Start to really focus `PlayerControl` on it's sole function.
+
+### 21 A Strong Character Basis
+1. Review how the character part of the player works
+2. Create a dedicated animator override controller per enemy
+3. Build a character from scratch as the basis of an enemy
+4. Demonstrate our architecture by possessing as player.
