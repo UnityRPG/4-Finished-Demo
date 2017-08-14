@@ -119,3 +119,9 @@ Here are the lectures of the course for this section...
 2. Create a dedicated animator override controller per enemy
 3. Build a character from scratch as the basis of an enemy
 4. Demonstrate our architecture by possessing as player.
+
+### 22 Slowly Extracting WeaponSystem
+1. Extract a few member variables at a time
+2. Keep your code close to compilation
+3. Provide new getter methods as needed
+4. Know when to stop and commit your work!

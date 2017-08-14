@@ -90,6 +90,11 @@ namespace RPG.Characters
             navMeshAgent.destination = worldPos;
         }
 
+        public AnimatorOverrideController GetOverrideController()
+        {
+            return animatorOverrideController;
+        }
+
         void Move(Vector3 movement)
         {
             SetForwardAndTurn(movement);
