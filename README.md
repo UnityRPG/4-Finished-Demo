@@ -125,3 +125,9 @@ Here are the lectures of the course for this section...
 2. Keep your code close to compilation
 3. Provide new getter methods as needed
 4. Know when to stop and commit your work!
+
+### 23 Recap And Review When Tired
+1. Beeminder is a useful tool for accountability
+2. When you're tired you can still move forward
+3. How to recover Scriptable Objects that you can't inspect
+4. A strategy on handling `todo` tags in code.

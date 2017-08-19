@@ -2,7 +2,6 @@
 using UnityEngine.Assertions;
 using RPG.CameraUI; // for mouse events
 
-// todo extract WeaponSystem
 namespace RPG.Characters
 {
     public class PlayerMovement : MonoBehaviour
