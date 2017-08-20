@@ -85,7 +85,7 @@ namespace RPG.Characters
             isAlive = false;
         }
 
-        public void SetDesination(Vector3 worldPos)
+        public void SetDestination(Vector3 worldPos)
         {
             navMeshAgent.destination = worldPos;
         }

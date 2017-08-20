@@ -138,3 +138,9 @@ Here are the lectures of the course for this section...
 3. Use `RequireComponent` appropriately.
 4. Make enemy attack radius depend on weapon.
 5. Is `GetComponent()` slow? OK to call in `Update()`?
+
+### 25 AI Behaviour Tree In Unity
+1. Outline our required enemy behaviour in pseudocode.
+2. Use an `enum` to track the enemy's state
+3. Use co-routines to patrol, attack, chase, etc.
+4. Use the inspector debug mode to see it working.
