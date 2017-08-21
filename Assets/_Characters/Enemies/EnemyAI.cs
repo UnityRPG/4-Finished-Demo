@@ -1,4 +1,5 @@
-﻿﻿﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,9 +10,12 @@ namespace RPG.Characters
     public class EnemyAI : MonoBehaviour
     {
         [SerializeField] float chaseRadius = 6f;
+        [SerializeField] WaypointContainer patrolPath;
+        [SerializeField] float waypointTolerance = 2.0f;
 
         PlayerMovement player = null;
         Character character;
+        int nextWaypointIndex;
         float currentWeaponRange;
         float distanceToPlayer;
 
@@ -33,7 +37,7 @@ namespace RPG.Characters
             if (distanceToPlayer > chaseRadius && state != State.patrolling)
             {
                 StopAllCoroutines();
-                state = State.patrolling;
+                StartCoroutine(Patrol());
             }
             if (distanceToPlayer <= chaseRadius && state != State.chasing)
             {
@@ -44,6 +48,27 @@ namespace RPG.Characters
             {
                 StopAllCoroutines();
                 state = State.attacking;
+            }
+        }
+
+        IEnumerator Patrol()
+        {
+            state = State.patrolling;
+
+            while (true)
+            {
+                Vector3 nextWaypointPos = patrolPath.transform.GetChild(nextWaypointIndex).position;
+                character.SetDestination(nextWaypointPos);
+                CycleWaypointWhenClose(nextWaypointPos);
+                yield return new WaitForSeconds(0.5f); // todo parameterise
+            }
+        }
+
+        private void CycleWaypointWhenClose(Vector3 nextWaypointPos)
+        {
+            if (Vector3.Distance(transform.position, nextWaypointPos) <= waypointTolerance)
+            {
+                nextWaypointIndex = (nextWaypointIndex + 1) % patrolPath.transform.childCount;
             }
         }
 

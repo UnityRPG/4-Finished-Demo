@@ -145,8 +145,12 @@ Here are the lectures of the course for this section...
 3. Use co-routines to patrol, attack, chase, etc.
 4. Use the inspector debug mode to see it working.
 
-
 ### 26 Waypoint Paths With Editor Gizmos
 1. A simple scheme for defining patrol paths.
 2. A new `WaypointContainer` class.
 3. Setup a couple of test paths.
+
+### 27 Patrolling Using Coroutines
+1. How `yield break;` works
+2. Care of infinite loops with `while (true)`
+3. Pseudocode to help you keep a consistent level of abstraction.
