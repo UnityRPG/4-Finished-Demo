@@ -154,3 +154,7 @@ Here are the lectures of the course for this section...
 1. How `yield break;` works
 2. Care of infinite loops with `while (true)`
 3. Pseudocode to help you keep a consistent level of abstraction.
+
+### 28 Automatic Repeat Attacking
+1. How to use `Debug.Break()` to pause on error.
+2. Using a co-routine for repeat attacks.
