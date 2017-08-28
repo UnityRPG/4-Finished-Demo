@@ -158,3 +158,8 @@ Here are the lectures of the course for this section...
 ### 28 Automatic Repeat Attacking
 1. How to use `Debug.Break()` to pause on error.
 2. Using a co-routine for repeat attacks.
+
+### 29 Stopping Coroutines In Update
+1. Our target could die at any time.
+2. We will test for deadness, and out of range every frame.
+3. Using `StopAllCoroutines()` to do just that!

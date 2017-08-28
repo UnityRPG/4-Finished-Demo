@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.Assertions;
 using UnityEngine;
 
@@ -7,7 +6,6 @@ namespace RPG.Characters
 {
     public class WeaponSystem : MonoBehaviour
     {
-
         [SerializeField] float baseDamage = 10f;
         [SerializeField] WeaponConfig currentWeaponConfig = null;
 
@@ -20,7 +18,6 @@ namespace RPG.Characters
         const string ATTACK_TRIGGER = "Attack";
         const string DEFAULT_ATTACK = "DEFAULT ATTACK";
 
-        // Use this for initialization
         void Start()
         {
             animator = GetComponent<Animator>();
@@ -30,11 +27,35 @@ namespace RPG.Characters
             SetAttackAnimation();
         }
 
-        // Update is called once per frame
         void Update()
         {
             // todo check continuously if we should still be attacking
+            bool targetIsDead;
+            bool targetIsOutOfRange;
 
+            if (target == null)
+            {
+                targetIsDead = false;
+                targetIsOutOfRange = false;
+            }
+            else
+            {
+                // test if target is dead
+                var targethealth = target.GetComponent<HealthSystem>().healthAsPercentage;
+                targetIsDead = targethealth <= Mathf.Epsilon;
+
+                // test if target is out of range
+                var distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
+                targetIsOutOfRange = distanceToTarget > currentWeaponConfig.GetMaxAttackRange();
+            }
+
+            float characterHealth = GetComponent<HealthSystem>().healthAsPercentage;
+            bool characterIsDead = (characterHealth <= Mathf.Epsilon);
+
+            if (characterIsDead || targetIsOutOfRange || targetIsDead)
+            {
+                StopAllCoroutines();
+            }
         }
 
         public void PutWeaponInHand(WeaponConfig weaponToUse)
