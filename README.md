@@ -163,3 +163,7 @@ Here are the lectures of the course for this section...
 1. Our target could die at any time.
 2. We will test for deadness, and out of range every frame.
 3. Using `StopAllCoroutines()` to do just that!
+
+
+### 30 Special Ability Animations
+1. How to trigger an animation for each special ability.

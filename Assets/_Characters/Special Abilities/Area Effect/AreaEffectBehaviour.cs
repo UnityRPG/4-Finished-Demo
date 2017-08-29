@@ -12,6 +12,7 @@ public class AreaEffectBehaviour : AbilityBehaviour {
         PlayAbilitySound();
         DealRadialDamage();
         PlayParticleEffect();
+        PlayAbilityAnimation();
     }
 
     private void DealRadialDamage()

@@ -19,6 +19,7 @@ namespace RPG.Characters
             var playerHealth = player.GetComponent<HealthSystem>();
             playerHealth.Heal((config as SelfHealConfig).GetExtraHealth());
             PlayParticleEffect();
+            PlayAbilityAnimation();
 		}
     }
 }
