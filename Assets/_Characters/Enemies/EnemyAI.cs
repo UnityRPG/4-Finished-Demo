@@ -14,7 +14,7 @@ namespace RPG.Characters
         [SerializeField] WaypointContainer patrolPath;
         [SerializeField] float waypointTolerance = 2.0f;
 
-        PlayerMovement player = null;
+        PlayerControl player = null;
         Character character;
         int nextWaypointIndex;
         float currentWeaponRange;
@@ -26,7 +26,7 @@ namespace RPG.Characters
         void Start()
         {
             character = GetComponent<Character>();
-            player = FindObjectOfType<PlayerMovement>();
+            player = FindObjectOfType<PlayerControl>();
         }
 
         void Update()
@@ -56,7 +56,7 @@ namespace RPG.Characters
         {
             state = State.patrolling;
 
-            while (true)
+            while (patrolPath != null)
             {
                 Vector3 nextWaypointPos = patrolPath.transform.GetChild(nextWaypointIndex).position;
                 character.SetDestination(nextWaypointPos);
