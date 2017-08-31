@@ -13,6 +13,7 @@ namespace RPG.Characters
         [SerializeField] float chaseRadius = 6f;
         [SerializeField] WaypointContainer patrolPath;
         [SerializeField] float waypointTolerance = 2.0f;
+        [SerializeField] float waypointDwellTime = 2.0f;
 
         PlayerControl player = null;
         Character character;
@@ -38,17 +39,19 @@ namespace RPG.Characters
             if (distanceToPlayer > chaseRadius && state != State.patrolling)
             {
                 StopAllCoroutines();
+                weaponSystem.StopAttacking();
                 StartCoroutine(Patrol());
             }
             if (distanceToPlayer <= chaseRadius && state != State.chasing)
             {
                 StopAllCoroutines();
+                weaponSystem.StopAttacking();
                 StartCoroutine(ChasePlayer());
             }
             if (distanceToPlayer <= currentWeaponRange && state != State.attacking)
             {
                 StopAllCoroutines();
-                state = State.attacking;
+                weaponSystem.AttackTarget(player.gameObject);
             }
         }
 
@@ -61,7 +64,7 @@ namespace RPG.Characters
                 Vector3 nextWaypointPos = patrolPath.transform.GetChild(nextWaypointIndex).position;
                 character.SetDestination(nextWaypointPos);
                 CycleWaypointWhenClose(nextWaypointPos);
-                yield return new WaitForSeconds(0.5f); // todo parameterise
+                yield return new WaitForSeconds(waypointDwellTime);
             }
         }
 

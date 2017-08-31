@@ -170,3 +170,8 @@ Here are the lectures of the course for this section...
 ### 31 Running Coroutines In Series
 1. Setup move and attack.
 2. Setup move and power attack.
+
+### 32 Finshing The Fight
+1. Fix the enemy UI.
+2. Fix coroutine logic to stop attacking
+3. Review our `// todo` items.

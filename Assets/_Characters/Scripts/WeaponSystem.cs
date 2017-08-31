@@ -29,7 +29,6 @@ namespace RPG.Characters
 
         void Update()
         {
-            // todo check continuously if we should still be attacking
             bool targetIsDead;
             bool targetIsOutOfRange;
 
@@ -75,6 +74,10 @@ namespace RPG.Characters
             StartCoroutine(AttackTargetRepeatedly());
         }
 
+        public void StopAttacking()
+        {
+            StopAllCoroutines();
+        }
 
         IEnumerator AttackTargetRepeatedly()
         {
