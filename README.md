@@ -171,7 +171,14 @@ Here are the lectures of the course for this section...
 1. Setup move and attack.
 2. Setup move and power attack.
 
-### 32 Finshing The Fight
+### 32 Finishing The Fight
 1. Fix the enemy UI.
 2. Fix coroutine logic to stop attacking
 3. Review our `// todo` items.
+
+### 33 Finishing The Weapon System
+1. Challenge to fix the weapon pickup (see resources)
+2. Create a ranged character
+3. Delete `Projectile.cs`
+4. Resolve all `todo` items in the entire project!
+5. Fix bug where level doesn't re-load on player death.
