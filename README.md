@@ -182,3 +182,8 @@ Here are the lectures of the course for this section...
 3. Delete `Projectile.cs`
 4. Resolve all `todo` items in the entire project!
 5. Fix bug where level doesn't re-load on player death.
+
+### 34 Polish Audit
+1. Explanation of our polish audit process.
+2. Creation of our polish list, phases and priorities.
+3. Creation of polish database.
