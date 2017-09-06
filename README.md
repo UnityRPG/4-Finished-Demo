@@ -187,3 +187,8 @@ Here are the lectures of the course for this section...
 1. Explanation of our polish audit process.
 2. Creation of our polish list, phases and priorities.
 3. Creation of polish database.
+
+### 35 Tuning Paradigms
+1. Execution - Intention
+2. Intention - Execution
+3. Imitation - Execution
