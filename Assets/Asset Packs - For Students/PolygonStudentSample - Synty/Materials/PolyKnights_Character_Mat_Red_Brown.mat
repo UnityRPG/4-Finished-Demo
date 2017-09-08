@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PolyKnights_Character_Mat_Green
+  m_Name: PolyKnights_Character_Mat_Red_Brown
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 008855b06d2c581488f09c25978e011e, type: 3}
+        m_Texture: {fileID: 2800000, guid: c254310b8e1df154081891aa5e181135, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -60,10 +60,10 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionScaleUI: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.202
+    - _GlossMapScale: 0.114
+    - _Glossiness: 0.211
     - _GlossyReflections: 1
-    - _Metallic: 1
+    - _Metallic: 0.516
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02

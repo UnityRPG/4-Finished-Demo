@@ -192,3 +192,8 @@ Here are the lectures of the course for this section...
 1. Execution - Intention
 2. Intention - Execution
 3. Imitation - Execution
+
+### 36 Rebuilding Enemies
+1. Updates of our spreadsheet
+2. Base damage and weapon damage approach
+3. Checklist for building a new enemy
