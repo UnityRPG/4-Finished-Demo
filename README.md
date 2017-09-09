@@ -197,3 +197,8 @@ Here are the lectures of the course for this section...
 1. Updates of our spreadsheet
 2. Base damage and weapon damage approach
 3. Checklist for building a new enemy
+
+### 37 Surprise And Delight
+1. Our current goals for our prototype level.
+2. Types of ways that we can surprise and delight our players.
+3. The surprise and delight we will be using for our game.
