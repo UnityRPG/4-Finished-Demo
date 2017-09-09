@@ -1859,12 +1859,12 @@ MonoBehaviour:
   maxHealthPoints: 100
   healthBar: {fileID: 114058923123143150}
   damageSounds:
-  - {fileID: 8300000, guid: 22818e08f6642497f9843a1054f57dc6, type: 3}
-  - {fileID: 8300000, guid: 83187cd1d87724988a9ba4b6750d7059, type: 3}
-  - {fileID: 8300000, guid: 2df7999f3ea05434cb8ef4ce1d9e833a, type: 3}
-  - {fileID: 8300000, guid: d3068cb76bc4c4688be2311be4c664db, type: 3}
-  - {fileID: 8300000, guid: 7395d3d62e8e34af1beda2def5890620, type: 3}
-  - {fileID: 8300000, guid: ce6a5898b24ca4d4a95d6cb0a5cdd7be, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   deathSounds:
   - {fileID: 8300000, guid: 05830414ee39c488b98fcbaed6b3bc74, type: 3}
   - {fileID: 8300000, guid: 2f541dbcdbefd40bf8cf99f78a4ed0ae, type: 3}
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animatorController: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
-  animatorOverrideController: {fileID: 22100000, guid: b2a047b446c3e431dadb5b151923c43c,
+  animatorOverrideController: {fileID: 22100000, guid: 9145d076d9a27494fbcbee44717bda15,
     type: 2}
   characterAvatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
   audioSourceSpatialBlend: 0.5
