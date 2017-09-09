@@ -53,7 +53,7 @@ namespace RPG.Characters
 
             if (characterIsDead || targetIsOutOfRange || targetIsDead)
             {
-                StopAllCoroutines();
+                StopAttacking();
             }
         }
 
