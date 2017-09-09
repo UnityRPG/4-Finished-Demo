@@ -19,4 +19,4 @@ MonoBehaviour:
   minTimeBetweenHits: 0.5
   maxAttackRange: 3
   additionalDamage: 30
-  damageDelay: 0
+  damageDelay: 0.5
