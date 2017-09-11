@@ -203,6 +203,11 @@ Here are the lectures of the course for this section...
 2. Types of ways that we can surprise and delight our players.
 3. The surprise and delight we will be using for our game.
 
-### 38 Continuous Attacking Bug
+### 38 Continuous Attack Bug
 1. How to decide what to do first.
 2. Fixing the continuous attacking bug.
+
+### 39 Lazy Enemy Bug
+1. Identify nature of bug - enemy not attacking in certain states.
+2. Map out the enemy state machine options.
+3. Add variables to more clearly show what distance the player is to the enemy.
