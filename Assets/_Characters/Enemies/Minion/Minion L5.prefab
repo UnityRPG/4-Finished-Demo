@@ -1014,8 +1014,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050062214668436}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.6, y: 9.78, z: -98.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 45.95, y: 9.78, z: -98.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4773161757863858}
@@ -2062,15 +2062,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animatorController: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
-  animatorOverrideController: {fileID: 22100000, guid: b2a047b446c3e431dadb5b151923c43c,
+  animatorOverrideController: {fileID: 22100000, guid: 4b9615a7c7cf05142959a3527c632286,
     type: 2}
   characterAvatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
   audioSourceSpatialBlend: 0.5
   colliderCenter: {x: 0, y: 1.03, z: 0}
   colliderRadius: 0.2
   colliderHeight: 2.03
-  moveSpeedMultiplier: 1.2
-  animationSpeedMultiplier: 1.2
+  moveSpeedMultiplier: 0.9
+  animationSpeedMultiplier: 0.9
   movingTurnSpeed: 800
   stationaryTurnSpeed: 800
   moveThreshold: 1

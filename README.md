@@ -202,3 +202,7 @@ Here are the lectures of the course for this section...
 1. Our current goals for our prototype level.
 2. Types of ways that we can surprise and delight our players.
 3. The surprise and delight we will be using for our game.
+
+### 38 Continuous Attacking Bug
+1. How to decide what to do first.
+2. Fixing the continuous attacking bug.
