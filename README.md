@@ -211,3 +211,10 @@ Here are the lectures of the course for this section...
 1. Identify nature of bug - enemy not attacking in certain states.
 2. Map out the enemy state machine options.
 3. Add variables to more clearly show what distance the player is to the enemy.
+
+### 40 Dialogue Workflow
+1. High level story for your level.
+2. Key story beats.
+3. Step-by-step level flow with script.
+4. Record placeholder dialogue.
+5. Record final dialogue.
