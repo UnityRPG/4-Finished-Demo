@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e75182c88b14ee7bf56210b44f90a3, type: 3}
+  m_Name: Club_L0
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4705688508082722, guid: 55d53ea88fbc527438bdb8f5d546b114,
+    type: 2}
+  weaponPrefab: {fileID: 104734, guid: e5979c3ac636334478a20376bafe57d7, type: 2}
+  attackAnimation: {fileID: 7400000, guid: 58f2909dff975b54c8395d479180996e, type: 3}
+  minTimeBetweenHits: 1
+  maxAttackRange: 2
+  additionalDamage: 0
+  damageDelay: 0.5
