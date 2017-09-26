@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e75182c88b14ee7bf56210b44f90a3, type: 3}
+  m_Name: Hammer_L1
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4219815134937942, guid: 5ee654896d74cf148a65d7a5d2009c20,
+    type: 2}
+  weaponPrefab: {fileID: 187076, guid: 5f0d6fe004d65ce4b80315c55184e912, type: 2}
+  attackAnimation: {fileID: 7400000, guid: fa2e4218597459545922351daff42f77, type: 3}
+  minTimeBetweenHits: 2
+  maxAttackRange: 3
+  additionalDamage: 30
+  damageDelay: 0

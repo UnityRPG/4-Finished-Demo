@@ -228,3 +228,7 @@ Here are the lectures of the course for this section...
 1. Create your character's waypoints.
 2. Understand and alter the character's max forward setting for animation blendtree.
 3. Tuning so that NPC stops and looks at player.
+
+### 43 Grip Scaler
+1. Identify why the player's weapon is not visible.
+2. Create a grip scaler, place on dominant hand then place dominant hand script onto grip scaler.
