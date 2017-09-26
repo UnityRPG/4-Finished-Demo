@@ -1091,7 +1091,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4152144604972674, guid: d39e0960bee0c4141a145995b7d790d1, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4152144604972674, guid: d39e0960bee0c4141a145995b7d790d1, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -3328,6 +3328,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 476920, guid: a2fdfebba1c706e41b0fa8a819b914e9, type: 2}
   m_PrefabInternal: {fileID: 167313553}
+--- !u!1 &168278043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 168278044}
+  m_Layer: 2
+  m_Name: WP_Daisy (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &168278044
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168278043}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.56, y: 0, z: 5.92}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 633313241}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &171652932
 Prefab:
   m_ObjectHideFlags: 0
@@ -4240,34 +4268,6 @@ Transform:
   m_Father: {fileID: 808778366}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0.97900003, z: 0}
---- !u!1 &215855487
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 215855488}
-  m_Layer: 0
-  m_Name: WP_Daisy(0)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &215855488
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 215855487}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.2, y: 0, z: -1.43}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1899253599}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &219324642
 Prefab:
   m_ObjectHideFlags: 0
@@ -4588,6 +4588,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 478910, guid: bddb857dccb8156419a78be08cb4b651, type: 2}
   m_PrefabInternal: {fileID: 226877996}
+--- !u!1 &229308371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 229308372}
+  m_Layer: 2
+  m_Name: WP_Daisy(0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &229308372
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229308371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.34, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 633313241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &242028421
 Prefab:
   m_ObjectHideFlags: 0
@@ -11809,6 +11837,51 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 430702, guid: 105f2418cc866b6439b211cb0181b50e, type: 2}
   m_PrefabInternal: {fileID: 622848778}
+--- !u!1 &633313240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 633313241}
+  - component: {fileID: 633313242}
+  m_Layer: 2
+  m_Name: PP_Daisy_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &633313241
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 633313240}
+  m_LocalRotation: {x: -0, y: -0.9358389, z: -0, w: 0.3524283}
+  m_LocalPosition: {x: -59.46, y: 10.07, z: -77.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 229308372}
+  - {fileID: 168278044}
+  - {fileID: 2124844100}
+  - {fileID: 2052738275}
+  - {fileID: 1267303533}
+  m_Father: {fileID: 2042568434}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633313242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 633313240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3bf18d4137d431b9512bd8165c7998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &634729624
 Prefab:
   m_ObjectHideFlags: 0
@@ -13359,7 +13432,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4152144604972674, guid: 88fe40ae14f70c74b9f079ab05872411, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1365088447091088, guid: 88fe40ae14f70c74b9f079ab05872411, type: 2}
       propertyPath: m_IsActive
@@ -13406,7 +13479,7 @@ Prefab:
     - target: {fileID: 114632770573084194, guid: 88fe40ae14f70c74b9f079ab05872411,
         type: 2}
       propertyPath: chaseRadius
-      value: 0.001
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114118784582555434, guid: 88fe40ae14f70c74b9f079ab05872411,
         type: 2}
@@ -13428,7 +13501,7 @@ Prefab:
         type: 2}
       propertyPath: patrolPath
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 633313242}
     - target: {fileID: 114632770573084194, guid: 88fe40ae14f70c74b9f079ab05872411,
         type: 2}
       propertyPath: waypointTolerance
@@ -13447,7 +13520,7 @@ Prefab:
     - target: {fileID: 114632770573084194, guid: 88fe40ae14f70c74b9f079ab05872411,
         type: 2}
       propertyPath: waypointDwellTime
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1185297716725486, guid: 88fe40ae14f70c74b9f079ab05872411, type: 2}
       propertyPath: m_IsActive
@@ -13800,6 +13873,11 @@ Prefab:
       value: 
       objectReference: {fileID: 22100000, guid: f4a690926063bf14587d558390ffea53,
         type: 2}
+    - target: {fileID: 114914845440179374, guid: 88fe40ae14f70c74b9f079ab05872411,
+        type: 2}
+      propertyPath: animatorForwardCap
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88fe40ae14f70c74b9f079ab05872411, type: 2}
   m_IsPrefabParent: 0
@@ -14574,34 +14652,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.1161036, y: 1.2452497, z: 0.26466414}
   m_Center: {x: -0.000000007393272, y: 0.6226249, z: -0.000000001159729}
---- !u!1 &713745361
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 713745362}
-  m_Layer: 0
-  m_Name: WP_Daisy (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &713745362
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 713745361}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.32, y: 0, z: -2.79}
-  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
-  m_Children: []
-  m_Father: {fileID: 1899253599}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &716800122
 Prefab:
   m_ObjectHideFlags: 0
@@ -17872,7 +17922,7 @@ Prefab:
         type: 2}
       propertyPath: currentWeaponConfig
       value: 
-      objectReference: {fileID: 11400000, guid: 80d41e298a4c0ee478631e258bc97854,
+      objectReference: {fileID: 11400000, guid: 323dc83b54cb34783bdef008156d1b34,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b53a5d9bc78e46d479c3575086134c7e, type: 2}
@@ -18983,7 +19033,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4152144604972674, guid: 0a4f44b42ca6d604f966748e841b0e1b, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1185297716725486, guid: 0a4f44b42ca6d604f966748e841b0e1b, type: 2}
       propertyPath: m_IsActive
@@ -20154,7 +20204,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4152144604972674, guid: 326e5fb34804e3a49a22e0e16da80051, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 326e5fb34804e3a49a22e0e16da80051, type: 2}
@@ -25651,6 +25701,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.1161036, y: 1.2452496, z: 0.26466423}
   m_Center: {x: -0.0000009629522, y: 0.6226248, z: -0.000000010872459}
+--- !u!1 &1267303532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1267303533}
+  m_Layer: 2
+  m_Name: WP_Daisy (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1267303533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267303532}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.35, y: 0, z: -2.36}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 633313241}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1268756212
 Prefab:
   m_ObjectHideFlags: 0
@@ -29918,7 +29996,6 @@ Transform:
   - {fileID: 1331440853}
   - {fileID: 948068833}
   - {fileID: 650010335}
-  - {fileID: 1899253599}
   m_Father: {fileID: 782442370}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31065,34 +31142,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6724992a26d21854798810e3993415be, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1523049604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1523049605}
-  m_Layer: 0
-  m_Name: WP_Daisy (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1523049605
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1523049604}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.33, y: 0, z: 6.69}
-  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
-  m_Children: []
-  m_Father: {fileID: 1899253599}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1523173070
 Prefab:
   m_ObjectHideFlags: 0
@@ -37628,50 +37677,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 12f912cf22db3d948a728f686b6a022c, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1899253598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1899253599}
-  - component: {fileID: 1899253600}
-  m_Layer: 0
-  m_Name: PP_Daisy_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1899253599
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1899253598}
-  m_LocalRotation: {x: -0, y: -0.9358389, z: -0, w: 0.3524283}
-  m_LocalPosition: {x: -59.46, y: 10.07, z: -77.68}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 215855488}
-  - {fileID: 1523049605}
-  - {fileID: 1966504782}
-  - {fileID: 713745362}
-  m_Father: {fileID: 1444601505}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1899253600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1899253598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e3bf18d4137d431b9512bd8165c7998, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1899894675 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4662102011577056, guid: 44a6829b35c49ee48a29017854130e9a,
@@ -39555,34 +39560,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 576b6d70e3da01b489b5b99e260ddc93, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1966504781
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1966504782}
-  m_Layer: 0
-  m_Name: WP_Daisy (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1966504782
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1966504781}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.35, y: 0, z: 5.06}
-  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
-  m_Children: []
-  m_Father: {fileID: 1899253599}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1969484250 stripped
 Transform:
   m_PrefabParentObject: {fileID: 470140, guid: 65599d67f43c9e3448b2846c4d9e8ab6, type: 2}
@@ -40840,6 +40817,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1789851437}
+  - {fileID: 633313241}
   - {fileID: 1351782411}
   - {fileID: 47752007}
   - {fileID: 963083205}
@@ -41109,6 +41087,34 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 485054, guid: 2428a1003c32a0b42aba6e97e339abbc, type: 2}
   m_PrefabInternal: {fileID: 2050666126}
+--- !u!1 &2052738274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2052738275}
+  m_Layer: 2
+  m_Name: WP_Daisy (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2052738275
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052738274}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.48, y: 0, z: 0.07}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 633313241}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2052760446
 Prefab:
   m_ObjectHideFlags: 0
@@ -42457,6 +42463,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab3836ea38115e74087a7ba11a8704e7, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2124844099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2124844100}
+  m_Layer: 2
+  m_Name: WP_Daisy (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2124844100
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124844099}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.92, y: 0, z: 4.3}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 633313241}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2127881452
 Prefab:
   m_ObjectHideFlags: 0

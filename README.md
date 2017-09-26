@@ -223,3 +223,8 @@ Here are the lectures of the course for this section...
 1. Create a new NPC character.
 2. Add new NPC_None weapon which does no damage.
 3. Change the NPC's chase radius, turn off canvas, set layer to ignore raycast.
+
+### 42 Wandering NPCs
+1. Create your character's waypoints.
+2. Understand and alter the character's max forward setting for animation blendtree.
+3. Tuning so that NPC stops and looks at player.
