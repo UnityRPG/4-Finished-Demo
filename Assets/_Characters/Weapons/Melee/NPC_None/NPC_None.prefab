@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4705688508082722}
   m_Layer: 0
-  m_Name: NPC_None Grip
+  m_Name: NPC_None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e75182c88b14ee7bf56210b44f90a3, type: 3}
   m_Name: NPC_None
   m_EditorClassIdentifier: 
-  gripTransform: {fileID: 4705688508082722, guid: 6594b6c79c367564996e4942a6964df1,
+  gripTransform: {fileID: 4705688508082722, guid: 55d53ea88fbc527438bdb8f5d546b114,
     type: 2}
-  weaponPrefab: {fileID: 0}
+  weaponPrefab: {fileID: 1499630126466888, guid: 91368827a32d7624bbef078c6f6c6664,
+    type: 2}
   attackAnimation: {fileID: 0}
   minTimeBetweenHits: 1
   maxAttackRange: 0

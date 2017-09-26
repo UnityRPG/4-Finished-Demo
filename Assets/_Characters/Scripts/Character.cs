@@ -122,7 +122,7 @@ namespace RPG.Characters
 
         void UpdateAnimator()
         {
-            animator.SetFloat("Forward", forwardAmount * .4f, 0.1f, Time.deltaTime);
+            animator.SetFloat("Forward", forwardAmount, 0.1f, Time.deltaTime);
             animator.SetFloat("Turn", turnAmount, 0.1f, Time.deltaTime);
             animator.speed = animationSpeedMultiplier;
         }

@@ -218,3 +218,8 @@ Here are the lectures of the course for this section...
 3. Step-by-step level flow with script.
 4. Record placeholder dialogue.
 5. Record final dialogue.
+
+### 41 NPCs That Don't Hit
+1. Create a new NPC character.
+2. Add new NPC_None weapon which does no damage.
+3. Change the NPC's chase radius, turn off canvas, set layer to ignore raycast.
