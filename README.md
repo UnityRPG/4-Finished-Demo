@@ -232,3 +232,7 @@ Here are the lectures of the course for this section...
 ### 43 Grip Scaler
 1. Identify why the player's weapon is not visible.
 2. Create a grip scaler, place on dominant hand then place dominant hand script onto grip scaler.
+
+### 44 Easier To Hit Enemies
+1. Identify the problem - enemies are difficult to click on.
+2. Create the solution - expand the enemy's capsule colliders.
