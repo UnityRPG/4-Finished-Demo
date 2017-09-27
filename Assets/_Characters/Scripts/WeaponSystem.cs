@@ -57,6 +57,11 @@ namespace RPG.Characters
             }
         }
 
+        public float GetMaxAttackRange()
+        {
+            return currentWeaponConfig.GetMaxAttackRange();
+        }
+         
         public void PutWeaponInHand(WeaponConfig weaponToUse)
         {
             currentWeaponConfig = weaponToUse;
@@ -88,8 +93,9 @@ namespace RPG.Characters
 
             while (attackerStillAlive && targetStillAlive)
             {
-                float weaponHitPeriod = currentWeaponConfig.GetMinTimeBetweenHits();
-                float timeToWait = weaponHitPeriod * character.GetAnimSpeedMultiplier();
+                var animationClip = currentWeaponConfig.GetAttackAnimClip();
+                float animationTime = animationClip.length / character.GetAnimSpeedMultiplier();
+                float timeToWait = animationTime + currentWeaponConfig.GetTimeBetweenHitAnimations();
 
                 bool isTimeToHitAgain = Time.time - lastHitTime > timeToWait;
 
@@ -106,7 +112,7 @@ namespace RPG.Characters
         {
             transform.LookAt(target.transform);
             animator.SetTrigger(ATTACK_TRIGGER);
-            float damageDelay = 1.0f; // todo get from the weapon
+            float damageDelay = currentWeaponConfig.GetDamageDelay();
             SetAttackAnimation();
             StartCoroutine(DamageAfterDelay(damageDelay));
         }
@@ -115,11 +121,6 @@ namespace RPG.Characters
         {
             yield return new WaitForSecondsRealtime(delay);
             target.GetComponent<HealthSystem>().TakeDamage(CalculateDamage());
-        }
-
-        public WeaponConfig GetCurrentWeapon()
-        {
-            return currentWeaponConfig;
         }
 
         private void SetAttackAnimation()
@@ -137,7 +138,7 @@ namespace RPG.Characters
             }
         }
 
-        private GameObject RequestDominantHand()
+        GameObject RequestDominantHand()
         {
             var dominantHands = GetComponentsInChildren<DominantHand>();
             int numberOfDominantHands = dominantHands.Length;
@@ -146,17 +147,7 @@ namespace RPG.Characters
             return dominantHands[0].gameObject;
         }
 
-        private void AttackTarget()
-        {
-            if (Time.time - lastHitTime > currentWeaponConfig.GetMinTimeBetweenHits())
-            {
-                SetAttackAnimation();
-                animator.SetTrigger(ATTACK_TRIGGER);
-                lastHitTime = Time.time;
-            }
-        }
-
-        private float CalculateDamage()
+        float CalculateDamage()
         {
             return baseDamage + currentWeaponConfig.GetAdditionalDamage();
         }

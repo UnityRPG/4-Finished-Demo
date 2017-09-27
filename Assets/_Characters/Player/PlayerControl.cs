@@ -54,7 +54,7 @@ namespace RPG.Characters
         bool IsTargetInRange(GameObject target)
         {
             float distanceToTarget = (target.transform.position - transform.position).magnitude;
-            return distanceToTarget <= weaponSystem.GetCurrentWeapon().GetMaxAttackRange();
+            return distanceToTarget <= weaponSystem.GetMaxAttackRange();
         }
 
         void OnMouseOverEnemy(EnemyAI enemy)
