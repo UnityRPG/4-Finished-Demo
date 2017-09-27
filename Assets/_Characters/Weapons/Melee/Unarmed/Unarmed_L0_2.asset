@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gripTransform: {fileID: 4705688508082722, guid: d556888c449d16a40a197e3b683d433a,
     type: 2}
-  weaponPrefab: {fileID: 0}
+  weaponPrefab: {fileID: 142994, guid: d5b33ed7536d1204daab5d6921d41f63, type: 2}
   attackAnimation: {fileID: 7400000, guid: 1315bcd7509173f44bc6655b2673dd4d, type: 3}
   minTimeBetweenHits: 1.5
   maxAttackRange: 2
