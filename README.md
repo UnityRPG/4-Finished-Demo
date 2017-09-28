@@ -236,3 +236,11 @@ Here are the lectures of the course for this section...
 ### 44 Easier To Hit Enemies
 1. Identify the problem - enemies are difficult to click on.
 2. Create the solution - expand the enemy's capsule colliders.
+
+### 45 Ben's Bug Bashing Bonanza
+1. Oh, we upgraded to Unity 2017.1.1 by the way.
+2. Review Rick's off-screen changes.
+3. Fix the player canvas UI and re-link.
+4. Allow for no energy bars.
+5. Fix an animation event error.
+6. Fix attack timings once and for all.

@@ -88,8 +88,9 @@ namespace RPG.Characters
 
             while (attackerStillAlive && targetStillAlive)
             {
-                float weaponHitPeriod = currentWeaponConfig.GetMinTimeBetweenHits();
-                float timeToWait = weaponHitPeriod * character.GetAnimSpeedMultiplier();
+                var animationClip = currentWeaponConfig.GetAttackAnimClip();
+                float animationClipTime = animationClip.length / character.GetAnimSpeedMultiplier();
+                float timeToWait = animationClipTime + currentWeaponConfig.GetTimeBetweenAnimationCycles();
 
                 bool isTimeToHitAgain = Time.time - lastHitTime > timeToWait;
 
@@ -106,7 +107,7 @@ namespace RPG.Characters
         {
             transform.LookAt(target.transform);
             animator.SetTrigger(ATTACK_TRIGGER);
-            float damageDelay = 1.0f; // todo get from the weapon
+            float damageDelay = currentWeaponConfig.GetDamageDelay();
             SetAttackAnimation();
             StartCoroutine(DamageAfterDelay(damageDelay));
         }
@@ -122,7 +123,7 @@ namespace RPG.Characters
             return currentWeaponConfig;
         }
 
-        private void SetAttackAnimation()
+        void SetAttackAnimation()
         {
             if (!character.GetOverrideController())
             {
@@ -137,7 +138,7 @@ namespace RPG.Characters
             }
         }
 
-        private GameObject RequestDominantHand()
+        GameObject RequestDominantHand()
         {
             var dominantHands = GetComponentsInChildren<DominantHand>();
             int numberOfDominantHands = dominantHands.Length;
@@ -146,17 +147,7 @@ namespace RPG.Characters
             return dominantHands[0].gameObject;
         }
 
-        private void AttackTarget()
-        {
-            if (Time.time - lastHitTime > currentWeaponConfig.GetMinTimeBetweenHits())
-            {
-                SetAttackAnimation();
-                animator.SetTrigger(ATTACK_TRIGGER);
-                lastHitTime = Time.time;
-            }
-        }
-
-        private float CalculateDamage()
+        float CalculateDamage()
         {
             return baseDamage + currentWeaponConfig.GetAdditionalDamage();
         }
