@@ -244,3 +244,9 @@ Here are the lectures of the course for this section...
 4. Allow for no energy bars.
 5. Fix an animation event error.
 6. Fix attack timings once and for all.
+
+### 46 Achieving Audio Awesomeness
+1. "Cherry-pick" some changes in git.
+2. Identify cross-talk bug.
+3. How `gameObject` is global state.
+4. Change `AudioTrigger` paradigm.
