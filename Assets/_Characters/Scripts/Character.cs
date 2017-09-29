@@ -88,6 +88,7 @@ namespace RPG.Characters
 
         public void Kill()
         {
+            ridigBody.useGravity = false;
             isAlive = false;
         }
 

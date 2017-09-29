@@ -20283,6 +20283,11 @@ Prefab:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114999843594506404, guid: b53a5d9bc78e46d479c3575086134c7e,
+        type: 2}
+      propertyPath: currentHealthPoints
+      value: 12.92
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114702755168375068, guid: b53a5d9bc78e46d479c3575086134c7e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b53a5d9bc78e46d479c3575086134c7e, type: 2}

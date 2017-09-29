@@ -27,6 +27,7 @@ namespace RPG.Characters
             SetAttackAnimation();
         }
 
+        // TODO simplify for clarity. What actually happens here?
         void Update()
         {
             bool targetIsDead;
@@ -71,7 +72,7 @@ namespace RPG.Characters
         public void AttackTarget(GameObject targetToAttack)
         {
             target = targetToAttack;
-            StartCoroutine(AttackTargetRepeatedly());
+            var handle = StartCoroutine(AttackTargetRepeatedly());
         }
 
         public void StopAttacking()
