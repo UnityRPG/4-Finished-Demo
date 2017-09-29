@@ -250,3 +250,7 @@ Here are the lectures of the course for this section...
 2. Identify cross-talk bug.
 3. How `gameObject` is global state.
 4. Change `AudioTrigger` paradigm.
+
+### 47 More Death Bugs
+1. Identify problem - death audio not triggering.
+2. Change order of audio triggering for death of characters.

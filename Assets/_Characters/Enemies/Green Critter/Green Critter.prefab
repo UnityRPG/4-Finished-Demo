@@ -1546,7 +1546,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1851417006058690}
   m_LocalRotation: {x: -0, y: -0.9215323, z: -0, w: 0.388302}
-  m_LocalPosition: {x: -129.86, y: 9.998169, z: -102.33}
+  m_LocalPosition: {x: -124.83, y: 9.86, z: -91.98}
   m_LocalScale: {x: 1, y: 0.8, z: 1}
   m_Children:
   - {fileID: 224608028288079592}
@@ -2346,8 +2346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fb437e61ff0493b8734b859139a188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealthPoints: 50
-  healthBar: {fileID: 0}
+  maxHealthPoints: 40
+  healthBar: {fileID: 114169573223794936}
   damageSounds:
   - {fileID: 8300000, guid: 58f6e0433963f4d4eae7658d1700744a, type: 3}
   - {fileID: 8300000, guid: 0a6d3ebe55077d145bdf19b575ab7641, type: 3}
@@ -2355,8 +2355,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b6c41755406a4ec48a0ab2e2c29d1b20, type: 3}
   - {fileID: 8300000, guid: d1d600442a5b8f2418fa04d27bda6565, type: 3}
   deathSounds:
-  - {fileID: 8300000, guid: ea228368169c26340a657c2042bf1115, type: 3}
-  deathVanishSeconds: 2
+  - {fileID: 8300000, guid: c88e5eaa6b41a334587f6554f35c18d5, type: 3}
+  deathVanishSeconds: 10
 --- !u!114 &114473595001909580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2377,8 +2377,8 @@ MonoBehaviour:
   colliderCenter: {x: 0, y: 1.03, z: 0}
   colliderRadius: 1
   colliderHeight: 2.03
-  moveSpeedMultiplier: 0.4
-  animationSpeedMultiplier: 0.8
+  moveSpeedMultiplier: 0.6
+  animationSpeedMultiplier: 0.9
   movingTurnSpeed: 800
   stationaryTurnSpeed: 800
   moveThreshold: 1
@@ -2425,16 +2425,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1851417006058690}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a666aa700f10b141b648b69dd714a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 919051e95bf05914f91fe32c4386d9e8, type: 3}
   layerFilter: 11
-  triggerRadius: 20.45
+  playerDistanceThreshold: 6.82
   isOneTimeOnly: 1
-  hasPlayed: 0
 --- !u!114 &114747928240234178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2606,7 +2605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -8.66}
+  m_AnchoredPosition: {x: 0, y: -6.1}
   m_SizeDelta: {x: 20, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224608028288079592

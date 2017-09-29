@@ -15,8 +15,8 @@ MonoBehaviour:
     type: 2}
   weaponPrefab: {fileID: 1274797246840802, guid: cc0dbe33ee8adbe4eb124e2d95d37fe4,
     type: 2}
-  attackAnimation: {fileID: 7400000, guid: 16b4a0031272510489ca40cdfd99c114, type: 3}
-  timeBetweenHitAnimations: 0.5
+  attackAnimation: {fileID: 7400000, guid: 91784112ca001e74bbc86bbbe8199e56, type: 3}
+  timeBetweenAnimationCycles: 0.5
   maxAttackRange: 2
-  additionalDamage: 10
+  additionalDamage: 15
   damageDelay: 0.5

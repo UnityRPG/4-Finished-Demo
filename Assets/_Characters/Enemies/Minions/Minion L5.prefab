@@ -1015,7 +1015,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050062214668436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.982727, y: 9.897537, z: -40.308487}
+  m_LocalPosition: {x: 18.913452, y: 9.841415, z: -43.621048}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4773161757863858}
@@ -1995,7 +1995,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b6c41755406a4ec48a0ab2e2c29d1b20, type: 3}
   - {fileID: 8300000, guid: d1d600442a5b8f2418fa04d27bda6565, type: 3}
   deathSounds:
-  - {fileID: 8300000, guid: 0923ac4e38c741d48aabaf0534a26cf6, type: 3}
+  - {fileID: 8300000, guid: d2281ffed63dddb43a08a86ba0779112, type: 3}
+  - {fileID: 8300000, guid: a07deb56d07075b408c7bc5227863062, type: 3}
+  - {fileID: 8300000, guid: 22abbe2a8245f844fbe8ec40f684a32b, type: 3}
+  - {fileID: 8300000, guid: 20ec4e81eb3fcb74799149848b3d0470, type: 3}
+  - {fileID: 8300000, guid: 1bb13271ca2c16e44b5c68cd6d212d53, type: 3}
   deathVanishSeconds: 2
 --- !u!114 &114632770573084194
 MonoBehaviour:
