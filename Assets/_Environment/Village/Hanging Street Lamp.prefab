@@ -36,9 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4505919641394052}
-  - component: {fileID: 65291698358507276}
   - component: {fileID: 65151952454030738}
-  - component: {fileID: 65963314670154626}
   m_Layer: 0
   m_Name: Hanging Street Lamp
   m_TagString: Untagged
@@ -52,14 +50,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1895625930017230}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 21}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.8578066, z: -0, w: 0.5139726}
+  m_LocalPosition: {x: 0.12679, y: 3.2, z: -22.068}
+  m_LocalScale: {x: 1.1813557, y: 1.181356, z: 1.181356}
   m_Children:
   - {fileID: 4871666763031738}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 118.142006, z: 0}
 --- !u!4 &4871666763031738
 Transform:
   m_ObjectHideFlags: 1
@@ -128,27 +126,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.495238, y: 3.1948695, z: 0.49523842}
   m_Center: {x: 0.0051517487, y: 1.5815957, z: -0.0051574707}
---- !u!65 &65291698358507276
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1895625930017230}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9570722, y: 0.19649887, z: 0.21710223}
-  m_Center: {x: 0.7202282, y: 3.0800881, z: 0}
---- !u!65 &65963314670154626
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1895625930017230}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5913377, y: 0.8467517, z: 0.591346}
-  m_Center: {x: 1.0931721, y: 2.5490334, z: 0.01020813}

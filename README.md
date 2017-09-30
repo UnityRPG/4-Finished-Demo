@@ -254,3 +254,8 @@ Here are the lectures of the course for this section...
 ### 47 More Death Bugs
 1. Identify problem - death audio not triggering.
 2. Change order of audio triggering for death of characters.
+
+### 48 Music And Ambience
+1. Let's add some music to our game.
+2. Playing with volume and pitch of audio track.
+3. Placing ambient triggered effects.

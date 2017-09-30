@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 114118784582555434}
   - component: {fileID: 114492752675541092}
   - component: {fileID: 114632770573084194}
+  - component: {fileID: 114142464881391958}
   m_Layer: 0
   m_Name: Minion L5
   m_TagString: Untagged
@@ -1015,7 +1016,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050062214668436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.913452, y: 9.841415, z: -43.621048}
+  m_LocalPosition: {x: -2.2716064, y: 0.084617615, z: 9.59079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4773161757863858}
@@ -1943,6 +1944,21 @@ MonoBehaviour:
   baseDamage: 6
   currentWeaponConfig: {fileID: 11400000, guid: 80d41e298a4c0ee478631e258bc97854,
     type: 2}
+--- !u!114 &114142464881391958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050062214668436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a666aa700f10b141b648b69dd714a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 7b3c33ca035878944a0e14c6a05a8821, type: 3}
+  layerFilter: 11
+  playerDistanceThreshold: 5
+  isOneTimeOnly: 1
 --- !u!114 &114271046049449432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1987,7 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 48
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 114804458860413902}
   damageSounds:
   - {fileID: 8300000, guid: 58f6e0433963f4d4eae7658d1700744a, type: 3}
   - {fileID: 8300000, guid: 0a6d3ebe55077d145bdf19b575ab7641, type: 3}

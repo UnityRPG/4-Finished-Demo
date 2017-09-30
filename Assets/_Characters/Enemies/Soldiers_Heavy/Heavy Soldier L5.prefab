@@ -1440,8 +1440,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1154867677194294}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.49, y: 9.998169, z: -105.18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 18.145588, y: 0, z: -7.675107}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_Children:
   - {fileID: 4426111120595732}
   - {fileID: 224359234388996252}
@@ -1941,7 +1941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseDamage: 22
-  currentWeaponConfig: {fileID: 11400000, guid: 80d41e298a4c0ee478631e258bc97854,
+  currentWeaponConfig: {fileID: 11400000, guid: 26370cb4783d1c2468af0b28acc4ed5b,
     type: 2}
 --- !u!114 &114152136662391770
 MonoBehaviour:
@@ -2033,6 +2033,7 @@ MonoBehaviour:
   animatorOverrideController: {fileID: 22100000, guid: 470bee2ff8d5ffd4888c94d075a1c29c,
     type: 2}
   characterAvatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  animatorForwardCap: 1
   audioSourceSpatialBlend: 0.5
   colliderCenter: {x: 0, y: 1.03, z: 0}
   colliderRadius: 0.2
@@ -2082,7 +2083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 240
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 114364324180290062}
   damageSounds:
   - {fileID: 8300000, guid: 58f6e0433963f4d4eae7658d1700744a, type: 3}
   - {fileID: 8300000, guid: 0a6d3ebe55077d145bdf19b575ab7641, type: 3}

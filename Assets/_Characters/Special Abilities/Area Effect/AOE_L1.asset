@@ -18,4 +18,4 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: aa8697103a68b4849802cdbafe9d93b7, type: 3}
   radius: 3
-  damageToEachTarget: 100
+  damageToEachTarget: 50
