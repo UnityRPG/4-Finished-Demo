@@ -264,3 +264,7 @@ Here are the lectures of the course for this section...
 1. Changing your overall scene lighting to be softer and more interesting.
 2. Adding point lights to highlight certain areas of interest.
 3. Combining lighting with particles effects.
+
+### 50 Final Design Thoughts
+1. Reviewing all of the amazing development you've done on your project to date.
+2. Ideas for expanding on core combat to personalise it to your game.
