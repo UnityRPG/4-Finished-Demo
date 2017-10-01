@@ -333,7 +333,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4881093466136012}
   - component: {fileID: 114747928240234178}
-  - component: {fileID: 114929862308779828}
   m_Layer: 0
   m_Name: Hand_R
   m_TagString: Untagged
@@ -1546,7 +1545,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1851417006058690}
   m_LocalRotation: {x: -0, y: -0.9215323, z: -0, w: 0.388302}
-  m_LocalPosition: {x: -124.83, y: 9.86, z: -91.98}
+  m_LocalPosition: {x: -76.88, y: 1.24, z: 62.95}
   m_LocalScale: {x: 1, y: 0.8, z: 1}
   m_Children:
   - {fileID: 224608028288079592}
@@ -2456,21 +2455,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c0d59b827694847a96196a4b2f7957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseRadius: 9.23
+  chaseRadius: 13
   patrolPath: {fileID: 0}
   waypointTolerance: 2
   waypointDwellTime: 2
---- !u!114 &114929862308779828
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1310287761020222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610f816287df94a478980beb4ea34d2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!137 &137116955402985846
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2616,7 +2604,7 @@ RectTransform:
   m_GameObject: {fileID: 1017678560260586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
   m_Children:
   - {fileID: 224299165403595218}
   m_Father: {fileID: 4613274070832884}
@@ -2624,6 +2612,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.05, y: 2.92}
+  m_AnchoredPosition: {x: 0, y: 2.659}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

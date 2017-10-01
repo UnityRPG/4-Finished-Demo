@@ -259,3 +259,8 @@ Here are the lectures of the course for this section...
 1. Let's add some music to our game.
 2. Playing with volume and pitch of audio track.
 3. Placing ambient triggered effects.
+
+### 49 Tweak Your Lighting
+1. Changing your overall scene lighting to be softer and more interesting.
+2. Adding point lights to highlight certain areas of interest.
+3. Combining lighting with particles effects.

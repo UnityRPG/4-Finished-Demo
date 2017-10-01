@@ -1440,7 +1440,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1154867677194294}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.145588, y: 0, z: -7.675107}
+  m_LocalPosition: {x: 24.66, y: 0, z: -11.85}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_Children:
   - {fileID: 4426111120595732}
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   colliderRadius: 0.2
   colliderHeight: 2.03
   moveSpeedMultiplier: 0.5
-  animationSpeedMultiplier: 0.8
+  animationSpeedMultiplier: 0.7
   movingTurnSpeed: 1000
   stationaryTurnSpeed: 800
   moveThreshold: 1
@@ -2091,7 +2091,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b6c41755406a4ec48a0ab2e2c29d1b20, type: 3}
   - {fileID: 8300000, guid: d1d600442a5b8f2418fa04d27bda6565, type: 3}
   deathSounds:
-  - {fileID: 8300000, guid: 0923ac4e38c741d48aabaf0534a26cf6, type: 3}
+  - {fileID: 8300000, guid: d2281ffed63dddb43a08a86ba0779112, type: 3}
+  - {fileID: 8300000, guid: a07deb56d07075b408c7bc5227863062, type: 3}
+  - {fileID: 8300000, guid: 22abbe2a8245f844fbe8ec40f684a32b, type: 3}
+  - {fileID: 8300000, guid: 20ec4e81eb3fcb74799149848b3d0470, type: 3}
+  - {fileID: 8300000, guid: 1bb13271ca2c16e44b5c68cd6d212d53, type: 3}
   deathVanishSeconds: 3
 --- !u!137 &137765466380486308
 SkinnedMeshRenderer:
@@ -2236,9 +2240,9 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1465931962318910}
-  m_LocalRotation: {x: -0.000000029802322, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.07, y: 0.07, z: 0.1}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
   m_Children:
   - {fileID: 224152477847879376}
   m_Father: {fileID: 4571442734845654}
@@ -2246,6 +2250,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000071525574, y: 3.22}
+  m_AnchoredPosition: {x: 0, y: 3.01}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
