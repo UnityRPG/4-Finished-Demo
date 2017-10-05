@@ -268,3 +268,8 @@ Here are the lectures of the course for this section...
 ### 50 Final Design Thoughts
 1. Reviewing all of the amazing development you've done on your project to date.
 2. Ideas for expanding on core combat to personalise it to your game.
+
+### 51 Congratulations
+1. Well done for finishing this course.
+2. Keep working on and improving your game.
+3. Schedule for upcoming content.
