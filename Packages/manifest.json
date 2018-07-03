@@ -1,4 +1,6 @@
 {
-	"dependencies": {
-	}
+  "dependencies": {
+    "com.unity.probuilder": "3.0.9",
+    "com.unity.ads": "2.0.8"
+  }
 }

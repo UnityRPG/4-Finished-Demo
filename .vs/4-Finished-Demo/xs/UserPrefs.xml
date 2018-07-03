@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets/_Characters/Scripts/WeaponSystem.cs" Line="131" Column="1" />
       <File FileName="Assets/_Characters/Player/PlayerControl.cs" Line="23" Column="10" />
-      <File FileName="Assets/_Characters/Weapons/WeaponConfig.cs" Line="52" Column="10" />
+      <File FileName="Assets/_Characters/Weapons/WeaponConfig.cs" Line="53" Column="65" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
