@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{87361386-9345-A587-EDF4-70A04D4D8775}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Characters/Weapons/WeaponConfig.cs">
+    <Files>
+      <File FileName="Assets/_Characters/Scripts/WeaponSystem.cs" Line="131" Column="1" />
+      <File FileName="Assets/_Characters/Player/PlayerControl.cs" Line="23" Column="10" />
+      <File FileName="Assets/_Characters/Weapons/WeaponConfig.cs" Line="52" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
